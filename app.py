@@ -7,12 +7,12 @@ from werkzeug.utils import secure_filename
 #from gevent.pywsgi import WSGIServer
 
 # TensorFlow and tf.keras
-#import tensorflow as tf
-#from tensorflow import keras
+import tensorflow as tf
+from tensorflow import keras
 
-from keras.applications.imagenet_utils import preprocess_input, decode_predictions
-from keras.models import load_model
-from keras.preprocessing import image
+from tensorflow.keras.applications.imagenet_utils import preprocess_input, decode_predictions
+from tensorflow.keras.models import load_model
+from tensorflow.keras.preprocessing import image
 
 # Some utilites
 import numpy as np

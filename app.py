@@ -99,6 +99,6 @@ def predict():
 if __name__ == '__main__':
 
     # Serve the app with gevent
-    app.run()
+    app.run(debug=True)
     #http_server = WSGIServer(('0.0.0.0', 5000), app)
     #http_server.serve_forever()

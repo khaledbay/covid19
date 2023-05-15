@@ -38,7 +38,7 @@ MODEL_PATH = 'model/covid19.model'
 model = load_model(MODEL_PATH)
 
 labels=['covid','normal']
-model._make_predict_function()          # Necessary
+#model._make_predict_function()          # Necessary
 print('Model loaded. Start serving...')
 
 
